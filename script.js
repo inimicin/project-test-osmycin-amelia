@@ -62,7 +62,6 @@ function get_content_by_url(urls) {
           <div class="img-container">
             <img
               src="${data['small_image'][0] ? data['small_image'][0]['url'] : ''}"
-              loading="lazy"
             />
           </div>
           <div class="card-body">
